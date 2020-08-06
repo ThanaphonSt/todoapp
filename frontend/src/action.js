@@ -1,7 +1,7 @@
 
 import axios from "axios"
 
-const API_URL = "http://localhost:3000/todos/"
+const API_URL = "http://localhost:9000/todos/"
 
 async function createTodo(task) {
   const { data: newTodo } = await axios.post(API_URL, {

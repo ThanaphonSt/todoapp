@@ -71,7 +71,7 @@ function App() {
             onClick={e => updateTodo(e, _id)}
             className={completed ? "completed" : ""}
           >
-            {task} <span onClick={e => deleteTodo(e, _id)}><i class="fa fa-times clickable" aria-hidden="true"></i></span>
+            {task} <span onClick={e => deleteTodo(e, _id)}><i className="fa fa-times clickable" aria-hidden="true"></i></span>
           </li>
         ))}
       </ul>
